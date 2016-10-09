@@ -1,0 +1,42 @@
+body{
+    font-family: "Zapfino";
+    color:#003366;
+      }
+
+h1 {
+    text-align: left;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #373737;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F4F4F4;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+   
+.active {
+    background-color: #C0B283;
+}
+
+th {
+    text-align:center;
+    color:#ffffff;
+    background-color:#003366;
+      border-collapse: collapse; 
+  }

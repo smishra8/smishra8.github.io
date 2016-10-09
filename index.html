@@ -3,26 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <link href="homepage.css" rel="stylesheet" type="text/css" />
   </head>
-  <body style="background-color:palegreen;">
-    <canvas id="myCanvas" style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML5 canvas tag.</canvas>
-
-<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-// Create gradient
-var grd = ctx.createLinearGradient(0,0,200,0);
-grd.addColorStop(0,"red");
-grd.addColorStop(1,"white");
-// Fill with gradient
-ctx.fillStyle = grd;
-ctx.fillRect(10,10,150,80);
-</script>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <h1 style="text-align:center; font-family:papyrus; font-size:400%;"><i>This is my test Home Page</i></h1>
-    <img src="images/webimg1.jpg" height="250">
-    <img src="images/webimg2.jpg" height= "250">
+  <body style="background-color:#F4F4F4;">
+     <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+</ul> 
+    <h1 style="text-align:center; font-family:Zapfino; font-size:400%; color:#C0B283;"><i>Shivani Mishra</i></h1>
+    <img src="images/Screen Shot 2016-10-09 at 12.33.35 AM.png" height="250">
+    <img src="images/violinchrome.png" height= "250">
   </body>
 </html>
