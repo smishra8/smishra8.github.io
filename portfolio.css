@@ -1,6 +1,7 @@
 body{
-    font-family: "Zapfino";
-    color:#003366;
+    background-color:#F4F4F4;
+    font-family: "Zapfino", "Century Gothic";
+    color:#373737;
       }
 
 h1 {
@@ -13,6 +14,14 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #373737;
+}
+
+h2 {
+    color: #C0B283;
+}
+
+h3 {
+    color: #373737;
 }
 
 li {
